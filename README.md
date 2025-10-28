@@ -65,16 +65,6 @@ The system integrates **AI, IoT, and Blockchain** technologies to provide **secu
 
 ---
 
-## 🧑‍💻 Contributors
-
-| Name | Role | LinkedIn |
-|------|------|-----------|
-| **Rishabh Jain** | Team Lead, AI Developer | [linkedin.com/in/rishabh-jain2005](https://linkedin.com/in/rishabh-jain2005) |
-| **Yashvika Bhardwaj** | Research & Blockchain Integration | — |
-| **Team Nirbhay India** | Frontend, IoT, and Data Analysis | — |
-
----
-
 ## 🛡️ License
 
 This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
