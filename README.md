@@ -177,8 +177,8 @@ npm start
 
 | Name | Role | LinkedIn |
 |------|------|-----------|
-| **Rishabh Jain** | Founder & AI Developer | [linkedin.com/in/rishabh-jain2005](https://linkedin.com/in/rishabh-jain2005) |
-| **Yashvika Bhardwaj** | Research & Blockchain Integration | [linkedin.com/in/yashvika-bhardwaj-08b500351](https://linkedin.com/in/yashvika-bhardwaj-08b500351) |
+| **Rishabh Jain** | Founder | [linkedin.com/in/rishabh-jain2005](https://linkedin.com/in/rishabh-jain2005) |
+| **Yashvika Bhardwaj** | Co-Founder | [linkedin.com/in/yashvika-bhardwaj-08b500351](https://linkedin.com/in/yashvika-bhardwaj-08b500351) |
 | **Nirbhay India Official** | Project Page | [linkedin.com/in/nirbhay-india-aa31bb375](https://linkedin.com/in/nirbhay-india-aa31bb375) |
 
 ---
