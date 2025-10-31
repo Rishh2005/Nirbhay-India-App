@@ -1,0 +1,143 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 275 100% 25%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 275 100% 25%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 275 100% 25%;
+
+    /* Purple brand colors - Nirbhay theme */
+    --primary: 275 100% 25%; /* Deep Indigo Purple #4B0082 */
+    --primary-foreground: 300 100% 97%;
+    --primary-glow: 275 80% 60%;
+
+    --secondary: 300 100% 95%; /* Soft Lavender #FAD9FA */
+    --secondary-foreground: 275 100% 25%;
+
+    --muted: 300 20% 96%;
+    --muted-foreground: 275 50% 40%;
+
+    --accent: 275 80% 60%; /* Vibrant Purple Accent */
+    --accent-foreground: 0 0% 100%;
+
+    /* Status colors */
+    --success: 122 40% 56%; /* Green #66BB6A */
+    --warning: 28 80% 64%; /* Orange #FFB74D */
+    --danger: 0 84% 60%; /* Red #EF5350 */
+    --danger-foreground: 0 0% 100%;
+    
+    /* Lavender theme for footer */
+    --lavender: 275 80% 70%; /* Soft Lavender */
+    --lavender-foreground: 0 0% 100%;
+    
+    --destructive: 4 90% 58%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 300 20% 90%;
+    --input: 300 20% 90%;
+    --ring: 275 100% 25%;
+
+    --radius: 1rem;
+    
+    /* Custom design tokens */
+    --gradient-primary: linear-gradient(135deg, hsl(275 100% 25%), hsl(275 80% 60%));
+    --gradient-secondary: linear-gradient(180deg, hsl(300 100% 97%), hsl(300 100% 95%));
+    --gradient-danger: linear-gradient(135deg, hsl(0 84% 60%), hsl(0 84% 70%));
+    --gradient-lavender: linear-gradient(135deg, hsl(275 80% 70%), hsl(275 70% 80%));
+    --gradient-sos: linear-gradient(135deg, hsl(0 84% 60%), hsl(0 0% 100%));
+    
+    --shadow-glow: 0 0 40px hsl(275 80% 60% / 0.3);
+    --shadow-soft: 0 10px 30px -10px hsl(275 100% 25% / 0.2);
+    --shadow-danger: 0 0 60px hsl(0 84% 60% / 0.5);
+    --shadow-lavender: 0 0 30px hsl(275 80% 70% / 0.4);
+    
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 275 50% 8%;
+    --foreground: 300 100% 97%;
+
+    --card: 275 40% 12%;
+    --card-foreground: 300 100% 97%;
+
+    --popover: 275 40% 12%;
+    --popover-foreground: 300 100% 97%;
+
+    --primary: 300 100% 97%;
+    --primary-foreground: 275 100% 25%;
+    --primary-glow: 275 80% 60%;
+
+    --secondary: 275 30% 20%;
+    --secondary-foreground: 300 100% 97%;
+
+    --muted: 275 30% 20%;
+    --muted-foreground: 300 50% 70%;
+
+    --accent: 275 80% 60%;
+    --accent-foreground: 0 0% 100%;
+
+    --success: 122 40% 56%;
+    --warning: 28 80% 64%;
+    --danger: 4 90% 58%;
+    
+    --destructive: 4 90% 58%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 275 30% 20%;
+    --input: 275 30% 20%;
+    --ring: 275 80% 60%;
+    
+    --gradient-primary: linear-gradient(135deg, hsl(275 60% 30%), hsl(275 80% 50%));
+    --gradient-secondary: linear-gradient(180deg, hsl(275 40% 15%), hsl(275 40% 12%));
+    --gradient-danger: linear-gradient(135deg, hsl(4 90% 45%), hsl(14 90% 55%));
+    
+    --shadow-glow: 0 0 50px hsl(275 80% 60% / 0.4);
+    --shadow-soft: 0 10px 30px -10px hsl(275 80% 60% / 0.3);
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
